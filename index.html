@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Buda:300"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav>
+      <h3 id="titl"><i class="fas fa-chart-line"></i>Dashboard</h3>
+      <div class="search-container">
+        <form action="">
+          <input
+            type="text"
+            placeholder="GitHub User Name"
+            name="search"
+            id="search"
+          />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <section id="menu">
+      <div id="pro">
+        <img src="" id="image" />
+        <p id="username"></p>
+      </div>
+      <div>
+        <a class="a" href="#"><i class="fas fa-chart-line"></i>Dashboard</a>
+        <a class="a" href="#"><i class="fas fa-home"> </i>Home</a>
+        <a class="a"><i class="far fa-user-circle"></i>Profile</a>
+        <a class="a" href="#"><i class="fas fa-mobile-alt"></i>Contact</a>
+      </div>
+    </section>
+
+    <div id="hov" class="container1"></div>
+    <div id="hov" class="container2"></div>
+    <div id="hov" class="container3"></div>
+    <div id="hov" onscroll class="container4"></div>
+    <div id="hov" class="container5"></div>
+    <div id="hov" class="container6"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- <canvas id="myChart"></canvas> -->
