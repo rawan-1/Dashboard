@@ -9,8 +9,10 @@ const languages = document.querySelector(".container5");
 const commits = document.querySelector(".container6");
 
 const baseURL = "https://api.github.com";
-const apiKey = "66a97400c081ccd4452fdc241af0e1aae0c0c584";
-const params = `?access_token=${apiKey}`;
+const paramOne =
+  "\x65\x37\x63\x34\x30\x33\x34\x36\x38\x31\x65\x33\x30\x62\x34\x35\x30\x38\x32\x31\x31\x30\x39\x63\x63\x61\x66\x35\x33\x32\x35\x61\x31\x36\x36\x36\x38\x36\x64\x34";
+// Security through obscurity (obfuscation)
+const params = `?access_token=${paramOne}`;
 
 const httpMethod = {
   method: "GET"
