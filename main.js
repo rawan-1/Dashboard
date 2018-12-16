@@ -130,7 +130,7 @@ function displayChart(repoName, username) {
 function getUsername() {
   let username = document.querySelector("input").value;
   if (username === "") {
-    username = "jquery";
+    username = "rawan-1";
   }
   return username;
 }
